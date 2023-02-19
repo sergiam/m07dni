@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.m07dni.componente">
+    <Label fx:id="nomText" style="-fx-font-weight: bold" text="Nom:" />
+    <TextField fx:id="nom"/>
+    <Label fx:id="cognomText" style="-fx-font-weight: bold" text="Cognom:" />
+    <TextField fx:id="cognom"/>
+    <Label fx:id="multiplicadorText" style="-fx-font-weight: bold" text="Multiplicador:" />
+    <TextField fx:id="multiplicador"/>
+
+</VBox>
